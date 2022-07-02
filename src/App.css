@@ -1,0 +1,41 @@
+.header {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.quiz-container {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  border-radius: 30px;
+}
+
+.quiz-container .quiz:not(:last-child) {
+  border-right: 2px solid rgb(244 244 244);
+}
+
+.start-btn {
+  margin-top: 30vh;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+
+.start-btn:hover {
+  background-color: rgb(197, 194, 194);
+}
+
+.quiz {
+  text-align: center;
+  flex: 1;
+  padding: 1rem;
+  background-color: rgb(5, 11, 27);
+  height: 80vh;
+  overflow-y: scroll;
+}

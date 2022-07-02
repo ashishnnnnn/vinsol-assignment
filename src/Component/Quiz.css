@@ -1,0 +1,106 @@
+.quiz .quiz-header {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.question-no {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.timer {
+  margin: 1rem 0;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(23, 33, 56);
+  font-size: 1.2rem;
+  margin-left: auto;
+}
+
+.note {
+  margin-top: 4rem;
+}
+
+.question {
+  margin: 2rem 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.input {
+  background-color: rgb(51 65 85);
+  border: none;
+  padding: 1rem;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  color: white;
+  outline: none;
+}
+
+.submit {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+
+.submit:hover {
+  background-color: rgb(197, 194, 194);
+}
+
+.question-list > div {
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: rgb(15, 23, 42);
+  margin-top: 0.5rem;
+}
+
+.question-list .question {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  color: white;
+}
+
+.question-list .correct {
+  background-color: rgb(51 65 85);
+}
+
+.question-list .incorrect {
+  background-color: rgb(220 38 38);
+}
+
+.question-list .answer {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.question-list .score {
+  font-size: 1.5rem;
+  color: white;
+  width: fit-content;
+  font-weight: 600;
+  margin: 1rem auto;
+}
+
+.Re-Start {
+  margin: 1rem 0rem;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
