@@ -98,7 +98,7 @@ export const Quiz = ({ quiz, quiz_type, setQuizState }) => {
 
           <div className="note">
             <strong>Note:-</strong> If number is in decimal enter the{" "}
-            <strong>Ceil</strong>
+            <strong>Ceil </strong>
             value of it.
           </div>
         </>
